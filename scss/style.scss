@@ -1,0 +1,9 @@
+@use "abstract" as core;
+@use "base";
+@use "layout";
+
+
+body{
+    font-family: core.font-family(body);
+}
+

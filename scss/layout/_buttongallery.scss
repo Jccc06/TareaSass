@@ -1,0 +1,9 @@
+@use "../abstract" as core;
+
+
+.button-gallery__grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.6rem;
+    padding: 2rem 0;
+}

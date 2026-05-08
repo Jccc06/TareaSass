@@ -1,0 +1,22 @@
+@use "../abstract" as core;
+
+.products-list{
+    background-color: core.color(background);
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-rows: min-content;
+    gap: 2.5rem;
+    padding: 3rem;
+    margin: 0;
+    max-width: 120rem;
+    width: 100%;
+    height: min-content;
+    justify-self: center;
+
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+        max-width: 48rem;
+    }
+ }

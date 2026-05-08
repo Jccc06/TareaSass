@@ -1,0 +1,83 @@
+//// Proyecto: SaSS Moderno
+/// @author Jc
+///
+@use "sass:map";
+
+
+
+
+
+
+
+///paleta de colores
+/// @group Colores
+/// @type Map
+$colors: (
+    primary: #163247,
+    secondary: #ffffff,
+    tertiary: #edf1f5,
+    quaternary: #2d6f97,
+    accent: #38a3d1,
+    background: #f5f7fa,
+    text: #1f2933,
+    light: #dfe6ec,
+    white: #ffffff,
+    gray: #9aa6b2,
+);
+
+$font-families: (
+    body: ("Roboto", Arial, sans-serif),
+    heading: ("Montserrat", "Roboto", Arial, sans-serif),
+);
+
+
+///obtiene un color del mapa de colores
+/// @group Colores
+/// @param {String} $name - El nombre del color a obtener
+/// @return {Color} Valor 
+@function colors($name) {
+    @if map.has-key($colors, $name) {
+        @return map.get($colors, $name);
+    } @else {
+        @warn "Color '#{$name}' no encontrado en la paleta de colores.";
+        @return null;
+    }
+    @return map.get($colors, $name);
+}
+
+/// @group TamañosTexto
+/// @param {int} $font-sizes 
+/// @return {font-sizes}
+
+$font-sizes: (
+    xs: 1.6rem,
+    s: 1.8rem,
+    m: 2rem,
+    l: 2.5rem,
+    xl: 3rem,
+    xxl: 6rem
+);
+
+/// @group Tamaños
+/// @param {int} $sizes 
+/// @return {sizes}
+
+
+$sizes:(
+    small:576px,
+    medium:768px,
+    large:992px,
+    xlarge:1200px,
+    xxlarge:1400px
+);
+
+@function color($name) {
+    @return map.get($colors, $name);
+}
+@function font-size($size) {
+    @return map.get($font-sizes, $size);
+}
+
+@function font-family($name) {
+    @return map.get($font-families, $name);
+}

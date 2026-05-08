@@ -1,0 +1,137 @@
+@use "../abstract" as core;
+
+.signup {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr);
+    gap: 3rem;
+    max-width: 120rem;
+    width: 100%;
+    justify-self: center;
+    margin: 3rem 0;
+    padding: 3rem;
+    background-color: core.color(secondary);
+    border: 1px solid core.color(light);
+    border-radius: 0.8rem;
+    box-shadow: 0 1rem 2.5rem rgba(22, 50, 71, 0.08);
+
+    &__intro {
+        padding: 2rem;
+        background-color: core.color(tertiary);
+        border-radius: 0.8rem;
+    }
+
+    &__label {
+        margin-bottom: 0.8rem;
+        color: core.color(accent);
+        font-family: core.font-family(heading);
+        font-size: core.font-size(xs);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: core.color(primary);
+    }
+
+    &__text {
+        color: core.color(text);
+        font-size: core.font-size(s);
+    }
+}
+
+.signup-form {
+    display: grid;
+    gap: 2rem;
+
+    &__group {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.6rem;
+        padding: 0;
+        border: none;
+
+        legend {
+            grid-column: 1 / -1;
+            margin-bottom: 0.4rem;
+            color: core.color(primary);
+            font-family: core.font-family(heading);
+            font-size: core.font-size(m);
+            font-weight: 700;
+        }
+    }
+
+    &__field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        color: core.color(text);
+        font-size: core.font-size(xs);
+        font-weight: 500;
+
+        &--full {
+            grid-column: 1 / -1;
+        }
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 1.2rem;
+        border: 1px solid core.color(light);
+        border-radius: 0.6rem;
+        background-color: core.color(background);
+        color: core.color(text);
+        font-family: core.font-family(body);
+        font-size: core.font-size(xs);
+        outline: none;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+        &:focus {
+            border-color: core.color(accent);
+            box-shadow: 0 0 0 0.3rem rgba(56, 163, 209, 0.16);
+        }
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    &__checks {
+        display: grid;
+        gap: 1rem;
+        padding: 1.4rem;
+        background-color: core.color(tertiary);
+        border-radius: 0.8rem;
+
+        label {
+            display: flex;
+            gap: 0.8rem;
+            align-items: center;
+            color: core.color(text);
+            font-size: core.font-size(xs);
+        }
+
+        input {
+            width: auto;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 900px) {
+    .signup {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .signup-form__group {
+        grid-template-columns: 1fr;
+    }
+}
