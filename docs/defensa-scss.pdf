@@ -1,0 +1,116 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 3037 >>
+stream
+BT /F2 18 Tf 54 780 Td (Defensa del SCSS del proyecto PaginaSass) Tj ET
+BT /F1 10.5 Tf 54 762 Td (Guion esencial para explicar la estructura, las decisiones tecnicas y las ventajas del) Tj ET
+BT /F1 10.5 Tf 54 749 Td (codigo SCSS.) Tj ET
+BT /F2 14 Tf 54 728 Td (1. Idea principal) Tj ET
+BT /F1 10.5 Tf 54 710 Td (El SCSS del proyecto esta organizado para separar responsabilidades: abstract, base,) Tj ET
+BT /F1 10.5 Tf 54 697 Td (layout y componentes. Esta estructura permite mantener, ampliar y revisar el codigo) Tj ET
+BT /F1 10.5 Tf 54 684 Td (con mas facilidad.) Tj ET
+BT /F2 14 Tf 54 663 Td (2. Arquitectura de carpetas) Tj ET
+BT /F1 10.5 Tf 54 645 Td (- abstract: variables, mapas, funciones y mixins. Es la capa de configuracion del) Tj ET
+BT /F1 10.5 Tf 54 632 Td (sistema visual.) Tj ET
+BT /F1 10.5 Tf 54 616 Td (- b) Tj ET
+BT /F1 10.5 Tf 54 600 Td (- l) Tj ET
+BT /F1 10.5 Tf 54 584 Td (- componentes: piezas reutilizables como navegacion, logo, productos, botones, reviews y) Tj ET
+BT /F1 10.5 Tf 54 571 Td (signup.) Tj ET
+BT /F2 14 Tf 54 550 Td (3. Uso moderno de Sass) Tj ET
+BT /F1 10.5 Tf 54 532 Td (- S) Tj ET
+BT /F1 10.5 Tf 54 516 Td (- s) Tj ET
+BT /F1 10.5 Tf 54 500 Td (- L) Tj ET
+BT /F1 10.5 Tf 54 484 Td (- Los parciales con guion bajo permiten dividir el codigo sin generar un CSS separado) Tj ET
+BT /F1 10.5 Tf 54 471 Td (por cada archivo.) Tj ET
+BT /F2 14 Tf 54 450 Td (4. Variables, mapas y funciones) Tj ET
+BT /F1 10.5 Tf 54 432 Td (- La paleta de colores, las familias tipograficas y los tamanos se guardan en mapas) Tj ET
+BT /F1 10.5 Tf 54 419 Td (Sass.) Tj ET
+BT /F1 10.5 Tf 54 403 Td (- Se accede a esos valores con funciones como core.color\(primary\), core.font-size\(m\) y) Tj ET
+BT /F1 10.5 Tf 54 390 Td (core.font-family\(body\).) Tj ET
+BT /F1 10.5 Tf 54 374 Td (- La ventaja es no repetir valores. Si cambia un color, una fuente o una escala, se) Tj ET
+BT /F1 10.5 Tf 54 361 Td (modifica en un unico sitio.) Tj ET
+BT /F2 14 Tf 54 340 Td (5. Mixins reutilizables) Tj ET
+BT /F1 10.5 Tf 54 322 Td (- c) Tj ET
+BT /F1 10.5 Tf 54 306 Td (- n) Tj ET
+BT /F1 10.5 Tf 54 290 Td (- b) Tj ET
+BT /F1 10.5 Tf 54 274 Td (- l) Tj ET
+BT /F2 14 Tf 54 253 Td (6. Componentes y metodologia BEM) Tj ET
+BT /F1 10.5 Tf 54 235 Td (- En bloques como reviews y signup se usa una nomenclatura tipo BEM: bloque, elemento y) Tj ET
+BT /F1 10.5 Tf 54 222 Td (modificador.) Tj ET
+BT /F1 10.5 Tf 54 206 Td (- E) Tj ET
+BT /F1 10.5 Tf 54 190 Td (- E) Tj ET
+BT /F2 14 Tf 54 169 Td (7. Grid, flexbox y responsive) Tj ET
+BT /F1 10.5 Tf 54 151 Td (- CSS Grid se usa para estructuras principales como productos, reviews, resumenes y) Tj ET
+BT /F1 10.5 Tf 54 138 Td (formularios.) Tj ET
+BT /F1 10.5 Tf 54 122 Td (- Flexbox se usa para alineaciones internas, por ejemplo tarjetas, botones, logo y) Tj ET
+BT /F1 10.5 Tf 54 109 Td (navegacion.) Tj ET
+BT /F1 10.5 Tf 54 93 Td (- Las media queries en 900px y 768px adaptan columnas a una sola columna en pantallas) Tj ET
+BT /F1 10.5 Tf 54 80 Td (pequenas.) Tj ET
+BT /F1 10.5 Tf 54 64 Td (- F) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 1637 >>
+stream
+BT /F2 14 Tf 54 780 Td (8. Ejemplos concretos) Tj ET
+BT /F1 10.5 Tf 54 762 Td (- _reviews.scss separa hero, lista, tarjetas y resumen. La variante) Tj ET
+BT /F1 10.5 Tf 54 749 Td (.review-card--featured demuestra reutilizacion sin duplicar un componente entero.) Tj ET
+BT /F1 10.5 Tf 54 733 Td (- _signup.scss organiza el formulario con grid, estados focus y agrupaciones semanticas) Tj ET
+BT /F1 10.5 Tf 54 720 Td (para mejorar claridad y experiencia de usuario.) Tj ET
+BT /F1 10.5 Tf 54 704 Td (- _button.scss parte de un mixin base y crea modificadores como .btn--primary,) Tj ET
+BT /F1 10.5 Tf 54 691 Td (.btn--secondary, .btn--outline y .btn--ghost.) Tj ET
+BT /F2 14 Tf 54 670 Td (9. Accesibilidad y experiencia de usuario) Tj ET
+BT /F1 10.5 Tf 54 652 Td (- L) Tj ET
+BT /F1 10.5 Tf 54 636 Td (- L) Tj ET
+BT /F1 10.5 Tf 54 620 Td (- L) Tj ET
+BT /F1 10.5 Tf 54 604 Td (- L) Tj ET
+BT /F2 14 Tf 54 583 Td (10. Frases utiles para defender) Tj ET
+BT /F1 10.5 Tf 54 565 Td (- H) Tj ET
+BT /F1 10.5 Tf 54 549 Td (- U) Tj ET
+BT /F1 10.5 Tf 54 533 Td (- L) Tj ET
+BT /F1 10.5 Tf 54 517 Td (- L) Tj ET
+BT /F1 10.5 Tf 54 501 Td (- E) Tj ET
+BT /F2 14 Tf 54 480 Td (11. Posibles mejoras a mencionar) Tj ET
+BT /F1 10.5 Tf 54 462 Td (- Corregir pequenos detalles en el mixin media, donde aparecen nombres de variable) Tj ET
+BT /F1 10.5 Tf 54 449 Td (inconsistentes.) Tj ET
+BT /F1 10.5 Tf 54 433 Td (- Unificar algunos colores directos en rgba\(\) para que tambien salgan desde variables o) Tj ET
+BT /F1 10.5 Tf 54 420 Td (funciones.) Tj ET
+BT /F1 10.5 Tf 54 404 Td (- A) Tj ET
+BT /F1 10.5 Tf 54 388 Td (- C) Tj ET
+BT /F1 10.5 Tf 54 372 Td (- M) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000003355 00000 n 
+0000003491 00000 n 
+0000005180 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+5316
+%%EOF

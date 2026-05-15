@@ -228,26 +228,6 @@ a:active {
   }
 }
 
-.button-gallery {
-  grid-column: 1/-1;
-  grid-row: 2;
-  margin-top: 2rem;
-  padding: 1.5rem;
-  background-color: #ffffff;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.button-gallery__title {
-  margin-bottom: 1rem;
-  text-align: center;
-  color: #163247;
-}
-.button-gallery__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1rem;
-}
-
 .btn {
   display: inline-flex;
   justify-content: center;
@@ -261,36 +241,44 @@ a:active {
   color: #ffffff;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+
 .btn:focus {
   outline: 2px solid #dfe6ec;
   outline-offset: 3px;
 }
+
 .btn--primary {
   background-color: #163247;
   color: #ffffff;
 }
+
 .btn--secondary {
   background-color: #ffffff;
   color: #163247;
   border: 2px solid #163247;
 }
+
 .btn--menu {
   background-color: #163247;
   color: #ffffff;
 }
+
 .btn--active {
   background-color: #dfe6ec;
   color: #163247;
 }
+
 .btn--outline {
   background-color: transparent;
   color: #163247;
   border: 2px solid #163247;
 }
+
 .btn--ghost {
   background-color: rgba(32, 165, 183, 0.12);
   color: #163247;

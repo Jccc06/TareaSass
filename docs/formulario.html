@@ -1,0 +1,154 @@
+<!DOCTYPE html><meta charset=UTF-8><title>Apuntarse - Silvers Gym</title><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel=stylesheet><link rel=stylesheet href=PaginaSass.6ee2894f.css><body>
+    <header>
+       
+        <div class=logo>
+            <img src=logosilver.289f6d80.png class=logo-img alt="Logo Silvers Gym">
+        </div>
+        <div class=heading>
+            <h1 class=heading-text>Apuntarse</h1>
+            <h2>Empieza hoy en Silvers Gym</h2>
+        </div> 
+        <nav class=first-nav>
+            <ul class=first-nav-list>
+                <li class=first-nav-item>
+                    <a href=index.html class=first-nav-link>Inicio</a>
+                </li>
+                <li class=first-nav-item>
+                    <a href=Reseñas.html class=first-nav-link>Reseñas</a>
+                </li>
+                <li class=first-nav-item>
+                    <a href=formulario.html class=first-nav-link>Apuntarse</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class=second-nav>
+            <ul class=second-nav-list>
+                <li class=second-nav-item>
+                    <a href=# class=second-nav-link>Planes</a>
+                </li>
+                <li class=second-nav-item>
+                    <a href=# class=second-nav-link>Objetivos</a>
+                </li>
+                <li class=second-nav-item>
+                    <a href=# class=second-nav-link>Horarios</a>
+                </li>
+                <li class=second-nav-item>
+                    <a href=# class=second-nav-link>Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    
+    </header>
+    <main class=container>
+        <section class=signup>
+            <div class=signup__intro>
+                <p class=signup__label>Formulario de alta</p>
+                <h2 class=signup__title>Unete a Silvers Gym</h2>
+                <p class=signup__text>
+                    Rellena tus datos para solicitar tu plaza. Nuestro equipo revisara la informacion y te ayudara a elegir el mejor plan para empezar a entrenar.
+                </p>
+            </div>
+
+            <form class=signup-form action=# method=post>
+                <fieldset class=signup-form__group>
+                    <legend>Datos personales</legend>
+
+                    <label class=signup-form__field>
+                        Nombre completo
+                        <input name=nombre placeholder="Ej. Juan Perez">
+                    </label>
+
+                    <label class=signup-form__field>
+                        Correo electronico
+                        <input type=email name=email placeholder=tuemail@correo.com>
+                    </label>
+
+                    <label class=signup-form__field>
+                        Telefono
+                        <input type=tel name=telefono placeholder="Ej. 600 123 456">
+                    </label>
+
+                    <label class=signup-form__field>
+                        Fecha de nacimiento
+                        <input type=date name=fecha-nacimiento>
+                    </label>
+                </fieldset>
+
+                <fieldset class=signup-form__group>
+                    <legend>Plan y entrenamiento</legend>
+
+                    <label class=signup-form__field>
+                        Plan elegido
+                        <select name=plan>
+                            <option value>Selecciona un plan</option>
+                            <option value=basico>Basico</option>
+                            <option value=completo>Completo</option>
+                            <option value=premium>Premium</option>
+                        </select>
+                    </label>
+
+                    <label class=signup-form__field>
+                        Objetivo principal
+                        <select name=objetivo>
+                            <option value>Selecciona tu objetivo</option>
+                            <option value=fuerza>Ganar fuerza</option>
+                            <option value=masa>Ganar masa muscular</option>
+                            <option value=salud>Mejorar salud</option>
+                            <option value=perder-peso>Perder peso</option>
+                        </select>
+                    </label>
+
+                    <label class=signup-form__field>
+                        Horario preferido
+                        <select name=horario>
+                            <option value>Selecciona un horario</option>
+                            <option value=mañana>Mañana</option>
+                            <option value=tarde>Tarde</option>
+                            <option value=noche>Noche</option>
+                        </select>
+                    </label>
+
+                    <label class="signup-form__field signup-form__field--full">
+                        Comentarios
+                        <textarea name=comentarios rows=5 placeholder="Cuéntanos si tienes alguna lesion, experiencia previa o duda."></textarea>
+                    </label>
+                </fieldset>
+
+                <div class=signup-form__checks>
+                    <label>
+                        <input type=checkbox name=condiciones>
+                        Acepto las condiciones de inscripcion de Silvers Gym.
+                    </label>
+                    <label>
+                        <input type=checkbox name=contacto>
+                        Quiero que el gimnasio me contacte para confirmar el alta.
+                    </label>
+                </div>
+
+                <div class=signup-form__actions>
+                    <button class="btn btn--primary">Enviar solicitud</button>
+                    <button type=reset class="btn btn--outline">Limpiar formulario</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer class=footer>
+        <div class=footer__content>
+            <div class=footer__logo>
+                <img src=logosilver.289f6d80.png class=logo-img alt="Logo Silvers Gym">
+            </div>
+            <div class=footer__info>
+                <p>© 2024 Silvers Gym. Todos los derechos reservados.</p>
+                <p>Gimnasio especializado en fuerza, salud y bienestar</p>
+            </div>
+            <div class=footer__links>
+                <a href=# class=footer__link>Politica de privacidad</a>
+                <a href=# class=footer__link>Terminos de uso</a>
+                <a href=# class=footer__link>Contacto</a>
+            </div>
+        </div>
+    </footer>
+    
+
+

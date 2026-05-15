@@ -2,12 +2,30 @@
   "name": "actividad2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "watch": "sass -w scss/style.scss css/styles.css"
+    "start": "parcel",
+    "build": "parcel build --public-url ./ --dist-dir docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jccc06/TareaSass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jccc06/TareaSass/issues"
+  },
+  "homepage": "https://github.com/Jccc06/TareaSass#readme",
+  "dependencies": {
+    "parcel": "^2.16.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4"
+  }
 }

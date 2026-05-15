@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Defensa SCSS - PaginaSass</title>
+  <style>
+    :root {
+      --primary: #163247;
+      --accent: #38a3d1;
+      --background: #f5f7fa;
+      --text: #1f2933;
+      --muted: #5f6c77;
+      --line: #dfe6ec;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 18mm;
+      background: var(--white);
+    }
+
+    header {
+      padding-bottom: 12px;
+      border-bottom: 3px solid var(--primary);
+      margin-bottom: 18px;
+    }
+
+    .eyebrow {
+      margin: 0 0 6px;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--primary);
+      font-size: 28px;
+      line-height: 1.1;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    h2 {
+      margin: 18px 0 8px;
+      color: var(--primary);
+      font-size: 17px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 4px;
+    }
+
+    h3 {
+      margin: 12px 0 6px;
+      color: var(--primary);
+      font-size: 13px;
+    }
+
+    p {
+      margin: 0 0 8px;
+    }
+
+    ul {
+      margin: 0 0 10px 18px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+
+    code {
+      background: #edf1f5;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 1px 4px;
+      color: var(--primary);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 11px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .box {
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      padding: 10px;
+      background: #fbfcfd;
+    }
+
+    .talking-points {
+      background: var(--primary);
+      color: var(--white);
+      border-radius: 6px;
+      padding: 12px;
+      margin-top: 12px;
+    }
+
+    .talking-points h2 {
+      color: var(--white);
+      border-bottom-color: rgba(255, 255, 255, .25);
+      margin-top: 0;
+    }
+
+    .talking-points code {
+      background: rgba(255, 255, 255, .12);
+      border-color: rgba(255, 255, 255, .2);
+      color: var(--white);
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    @media print {
+      body {
+        background: var(--white);
+      }
+
+      .page {
+        width: auto;
+        min-height: auto;
+        margin: 0;
+        padding: 14mm;
+      }
+
+      h2 {
+        page-break-after: avoid;
+      }
+
+      .box,
+      .talking-points {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Guion esencial de defensa</p>
+      <h1>Defensa del SCSS del proyecto PaginaSass</h1>
+      <p class="subtitle">Resumen preparado para explicar la estructura, las decisiones tecnicas y las ventajas del codigo SCSS.</p>
+    </header>
+
+    <section>
+      <h2>1. Idea principal</h2>
+      <p>
+        El SCSS del proyecto esta organizado para separar responsabilidades: los valores globales viven en
+        <code>abstract</code>, los estilos comunes en <code>base</code>, la estructura general en
+        <code>layout</code> y las piezas reutilizables en <code>componentes</code>. Esto hace que el codigo sea
+        mas facil de mantener, ampliar y revisar.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Arquitectura de carpetas</h2>
+      <div class="grid">
+        <div class="box">
+          <h3><code>abstract</code></h3>
+          <p>Contiene variables, mapas, funciones y mixins. Es la capa de configuracion del sistema visual.</p>
+        </div>
+        <div class="box">
+          <h3><code>base</code></h3>
+          <p>Define reset, tipografias, estilos globales del body, titulos, parrafos, imagenes y enlaces.</p>
+        </div>
+        <div class="box">
+          <h3><code>layout</code></h3>
+          <p>Agrupa las zonas principales de la pagina: header, footer, contenedor y galeria.</p>
+        </div>
+        <div class="box">
+          <h3><code>componentes</code></h3>
+          <p>Incluye piezas concretas como navegacion, logo, productos, botones, reviews y formulario de registro.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Uso moderno de Sass</h2>
+      <ul>
+        <li>Se usa <code>@use</code> y <code>@forward</code>, que es la forma moderna de importar modulos en Sass.</li>
+        <li>El archivo <code>scss/style.scss</code> actua como punto de entrada y carga las capas principales.</li>
+        <li>Los modulos se importan con alias como <code>core</code>, evitando nombres globales confusos.</li>
+        <li>Los parciales con guion bajo permiten dividir el codigo sin generar un CSS separado por cada archivo.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Variables, mapas y funciones</h2>
+      <p>
+        La paleta de colores, las familias tipograficas y los tamanos se guardan en mapas Sass. Despues se accede a
+        ellos con funciones como <code>core.color(primary)</code>, <code>core.font-size(m)</code> y
+        <code>core.font-family(body)</code>.
+      </p>
+      <p>
+        Esto evita repetir valores como colores o tamanos en muchos archivos. Si se quiere cambiar el color principal
+        o una escala de texto, se modifica en un unico sitio y el cambio se propaga.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. Mixins reutilizables</h2>
+      <ul>
+        <li><code>center</code>: centraliza elementos con flexbox.</li>
+        <li><code>navmenu</code> y <code>nav-links</code>: evitan repetir estilos de navegacion.</li>
+        <li><code>btn-base</code>: define la base comun de los botones y permite crear variantes visuales.</li>
+        <li><code>layout_basico</code>: plantea una estructura grid reutilizable.</li>
+      </ul>
+      <p>
+        La ventaja es que una decision de estilo comun se mantiene en un mixin, no duplicada en cada componente.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Componentes y metodologia BEM</h2>
+      <p>
+        En varios bloques se aplica una nomenclatura tipo BEM: bloque, elemento y modificador. Por ejemplo:
+        <code>.review-card</code>, <code>.review-card__avatar</code> y <code>.review-card--featured</code>.
+      </p>
+      <p>
+        Esto ayuda a que los estilos sean mas claros, predecibles y faciles de localizar. Tambien reduce conflictos
+        porque cada regla pertenece a un bloque concreto.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Grid, flexbox y responsive</h2>
+      <ul>
+        <li>El proyecto usa CSS Grid para estructuras principales como productos, reviews, resumenes y formularios.</li>
+        <li>Flexbox se usa para alineaciones internas, por ejemplo tarjetas, botones, logo y navegacion.</li>
+        <li>Hay media queries en puntos clave, como <code>900px</code> y <code>768px</code>, para adaptar columnas a una sola columna en pantallas pequenas.</li>
+        <li>Se usan valores como <code>minmax()</code> y <code>repeat()</code> para crear layouts flexibles.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. Ejemplos concretos para explicar</h2>
+      <div class="box">
+        <h3>Reviews</h3>
+        <p>
+          <code>_reviews.scss</code> separa el hero, la lista de reseñas, las tarjetas y el resumen. Las tarjetas
+          tienen variante destacada con <code>.review-card--featured</code>, lo que demuestra reutilizacion sin crear
+          una clase totalmente nueva.
+        </p>
+      </div>
+      <div class="box">
+        <h3>Formulario</h3>
+        <p>
+          <code>_signup.scss</code> organiza el formulario con grid, estados de foco en inputs y agrupaciones
+          semanticas. Mejora la experiencia de usuario porque los campos son claros, consistentes y adaptables.
+        </p>
+      </div>
+      <div class="box">
+        <h3>Botones</h3>
+        <p>
+          <code>_button.scss</code> parte de un mixin base y despues crea modificadores como
+          <code>.btn--primary</code>, <code>.btn--secondary</code>, <code>.btn--outline</code> y <code>.btn--ghost</code>.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>9. Accesibilidad y experiencia de usuario</h2>
+      <ul>
+        <li>Los botones incluyen estado <code>:focus</code>, importante para navegacion con teclado.</li>
+        <li>Los formularios tienen estados <code>:focus</code> con borde y sombra para indicar el campo activo.</li>
+        <li>La escala tipografica y los colores centralizados favorecen una interfaz consistente.</li>
+        <li>Las imagenes tienen <code>max-width: 100%</code> y <code>height: auto</code> para evitar desbordes.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>10. Que defender oralmente</h2>
+      <div class="talking-points">
+        <h2>Frases utiles</h2>
+        <ul>
+          <li>"He separado el SCSS por responsabilidades para que el proyecto sea mantenible."</li>
+          <li>"Uso mapas y funciones para no repetir colores, tipografias ni tamanos."</li>
+          <li>"Los mixins me permiten reutilizar patrones como centrado, navegacion y botones."</li>
+          <li>"Los componentes siguen una estructura clara, con nombres tipo BEM para saber a que bloque pertenece cada estilo."</li>
+          <li>"El responsive esta planteado con grid, flexbox y media queries para que las secciones se adapten a movil."</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>11. Posibles mejoras a mencionar</h2>
+      <ul>
+        <li>Corregir pequenos detalles en el mixin <code>media</code>, donde aparecen nombres de variable inconsistentes.</li>
+        <li>Unificar algunos colores directos en <code>rgba()</code> para que tambien salgan desde variables o funciones.</li>
+        <li>Ampliar la documentacion SassDoc que ya empieza a aparecer en los archivos de variables y mixins.</li>
+        <li>Crear mas mixins si aparecen patrones repetidos en nuevos componentes.</li>
+      </ul>
+      <p class="note">
+        Mencionar mejoras no resta valor: demuestra que entiendes tu codigo y sabes como evolucionarlo.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

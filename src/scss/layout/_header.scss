@@ -1,0 +1,30 @@
+@use "../abstract/index" as core;
+@use "../componentes";
+header{
+    background-image: linear-gradient(rgba(core.color(primary), 0.45), rgba(core.color(primary), 0.45)), url("../assets/img/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.heading{
+    grid-row: 2/3;
+    grid-column: 4/6;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: core.font-size(xl);
+    }
+    h2{
+        font-size: core.font-size(l);
+        color: core.color(gray);
+    }
+}
+
+
+

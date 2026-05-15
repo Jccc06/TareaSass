@@ -1,0 +1,47 @@
+@use "../abstract" as core;
+
+.btn {
+    @include core.btn-base(core.color(primary), core.color(white));
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+    outline: 2px solid core.color(light);
+    outline-offset: 3px;
+}
+
+.btn--primary {
+    background-color: core.color(primary);
+    color: core.color(white);
+}
+
+.btn--secondary {
+    background-color: core.color(white);
+    color: core.color(primary);
+    border: 2px solid core.color(primary);
+}
+
+.btn--menu {
+    background-color: core.color(primary);
+    color: core.color(white);
+}
+
+.btn--active {
+    background-color: core.color(light);
+    color: core.color(primary);
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: core.color(primary);
+    border: 2px solid core.color(primary);
+}
+
+.btn--ghost {
+    background-color: rgba(32, 165, 183, 0.12);
+    color: core.color(primary);
+}
