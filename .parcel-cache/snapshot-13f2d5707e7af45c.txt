@@ -1,19 +1,18 @@
-3717
+3693
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\react-refresh\cjs\react-refresh-runtime.development.js134233063033486660 0
 73C:\Users\juanc\Desktop\SASS\PaginaSass\src\scss\componentes\_reviews.scss134226276598102063 0
 42C:\Users\juanc\Desktop\SASS\PaginaSass\css134226251404028972 1
-102C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\src\helpers\worker\js-loader.js134233063038595424 0
-69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\has-flag\index.js134233063031756056 0
-93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\source-map-js\lib\source-map-generator.js134233069900160405 0
-77C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-addon-api\napi-inl.h134233063034616282 0
-72C:\Users\juanc\Desktop\SASS\PaginaSass\src\scss\componentes\_signup.scss134226278967482920 0
-82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-service-worker134233063032443904 1
-83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\AL.js134233063036642492 0
-83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\weak-lru-cache\rollup.config.js134233063032983078 0
-51C:\Users\juanc\Desktop\SASS\PaginaSass\package.json134233071890654661 0
-81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\lightningcss\node\ast.js.flow134233063033015068 0
-43C:\Users\juanc\Desktop\SASS\PaginaSass\dist134233070545886068 1
-62C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\is-extglob134233063032151237 1
+104C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\detect-libc\index.d.ts134233063034323771 0
+77C:\Users\juanc\Desktop\SASS\PaginaSass\sassdoc\assets\js\vendor\jquery.min.js134218376876302941 0
+76C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-sass134233069900040425 1
+59C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\is-glob134233063032151237 1
+103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js134233063037551140 0
+91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\mpeg-dash.js134233063058633046 0
+82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\immutable\dist\immutable.es.js134233069900300699 0
+69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\tslib\SECURITY.md134233063034323771 0
+49C:\Users\juanc\Desktop\SASS\PaginaSass\src\assets134233067952468222 1
+83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\MO.js134233063058565365 0
+89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\ch-unit.js134233063045020395 0
 94C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\offline-apps.js134233063060127445 0
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-releases\data\processed134233063031331180 1
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\resolver-default\src134233063031902841 1
@@ -24,7 +23,7 @@
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-postcss\lib134233063034552250 1
 57C:\Users\juanc\Desktop\SASS\PaginaSass\sassdoc\index.html134218376876018242 0
 65C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\picomatch\lib134233063034474443 1
-43C:\Users\juanc\Desktop\SASS\PaginaSass\docs134233072316581562 1
+43C:\Users\juanc\Desktop\SASS\PaginaSass\docs134233081929236495 1
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\nullthrows\nullthrows.js.flow134233063032797218 0
 78C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr\dist\node.cjs.map134233063039772928 0
 74C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\semver\functions\eq.js134233063035629923 0
@@ -42,6 +41,18 @@
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\IN.js134233063055627669 0
 65C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\escalade\dist134233063033364450 1
 51C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules134233069899168836 1
+102C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\src\helpers\worker\js-loader.js134233063038595424 0
+69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\has-flag\index.js134233063031756056 0
+93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\source-map-js\lib\source-map-generator.js134233069900160405 0
+77C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-addon-api\napi-inl.h134233063034616282 0
+72C:\Users\juanc\Desktop\SASS\PaginaSass\src\scss\componentes\_signup.scss134226278967482920 0
+82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-service-worker134233063032443904 1
+83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\AL.js134233063036642492 0
+83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\weak-lru-cache\rollup.config.js134233063032983078 0
+51C:\Users\juanc\Desktop\SASS\PaginaSass\package.json134233071890654661 0
+98C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\childnode-remove.js134233063045170010 0
+92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\web-serial.js134233063065955755 0
+70C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\.package-lock.json134233069903651520 0
 119C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md134233063034084436 0
 75C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr\test-worker.js134233063036970788 0
 108C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0134233063039757870 1
@@ -60,17 +71,6 @@
 88C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\webhid.js134233063066079129 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\error-overlay\src\utils\getStackFrames.js134233063035596984 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\ET.js134233063052961242 0
-104C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\detect-libc\index.d.ts134233063034323771 0
-77C:\Users\juanc\Desktop\SASS\PaginaSass\sassdoc\assets\js\vendor\jquery.min.js134218376876302941 0
-76C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-sass134233069900040425 1
-59C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\is-glob134233063032151237 1
-103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js134233063037551140 0
-91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\mpeg-dash.js134233063058633046 0
-82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\immutable\dist\immutable.es.js134233069900300699 0
-69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\tslib\SECURITY.md134233063034323771 0
-49C:\Users\juanc\Desktop\SASS\PaginaSass\src\assets134233067952468222 1
-83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\MO.js134233063058565365 0
-89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\ch-unit.js134233063045020395 0
 58C:\Users\juanc\Desktop\SASS\PaginaSass\src\formulario.html134233069882838645 0
 68C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\tslib\tslib.html134233063031173492 0
 71C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\immutable\README.md134233069900572394 0
@@ -168,7 +168,7 @@
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\codeframe\lib\codeframe.js134233063036722861 0
 69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\get-port\index.js134233063031867786 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\sass\types\legacy\importer.d.ts134233069901810001 0
-66C:\Users\juanc\Desktop\SASS\PaginaSass\docs\clasesdir.422a6f24.png134233072312166371 0
+66C:\Users\juanc\Desktop\SASS\PaginaSass\docs\clasesdir.422a6f24.png134233081925365801 0
 66C:\Users\juanc\Desktop\SASS\PaginaSass\src\assets\img\personal.png134226264155260140 0
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\immutable\dist\immutable.d.ts134233069900850750 0
 69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\sass\types\logger134233069903047748 1
@@ -276,9 +276,6 @@
 107C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-container-query-units.js134233063047937501 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\sassdoc\assets\images\logo_light_compact.svg134218376876282416 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\IM.js134233063055299527 0
-98C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\childnode-remove.js134233063045170010 0
-92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\web-serial.js134233063065955755 0
-70C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\.package-lock.json134233069903651520 0
 69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@lezer\lr\LICENSE134233063030663964 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\BF.js134233063043118190 0
 90C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\promises.js134233063061588298 0
@@ -304,7 +301,7 @@
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\_\_overload_yield134233063043118190 1
 74C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\ordered-binary\LICENSE134233063030505744 0
 63C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\ansi-styles134233063032619909 1
-61C:\Users\juanc\Desktop\SASS\PaginaSass\docs\hero.addb6c17.png134233072316424079 0
+61C:\Users\juanc\Desktop\SASS\PaginaSass\docs\hero.addb6c17.png134233081928907760 0
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-browser-hmr\lib\loaders\hmr-runtime.js134233063031737293 0
 79C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-postcss134233063034969611 1
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\textencoder.js134233063064178528 0
@@ -388,6 +385,8 @@
 61C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\immutable134233069900532140 1
 71C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\type-fest\readme.md134233063031902841 0
 91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\_\_assert_this_initialized134233063034812098 1
+81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\lightningcss\node\ast.js.flow134233063033015068 0
+62C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\is-extglob134233063032151237 1
 79C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\logger\package.json134233063033119393 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\HT.js134233063054714368 0
 57C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\json5134233063035826026 1
@@ -495,7 +494,6 @@
 99C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\src\requests\WriteBundleRequest.js134233063048575987 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-image\src\ImageTransformer.js134233063032083522 0
 67C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\detect-libc\lib134233063033293574 1
-67C:\Users\juanc\Desktop\SASS\PaginaSass\dist\Reseñas.fdc933c4.js.map134233070544680893 0
 75C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\weak-lru-cache\index.js134233063031902841 0
 100C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\lightningcss\node_modules\detect-libc\lib\elf.js134233063032347823 0
 89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@lmdb\lmdb-win32-x64\node.abi108.node134233063034269527 0
@@ -554,7 +552,6 @@
 85C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\es5.js134233063052813622 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\midi.js134233063057910538 0
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\sass\types\logger\index.d.ts134233069901891494 0
-66C:\Users\juanc\Desktop\SASS\PaginaSass\dist\clasesdir.61937175.png134233070545468338 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\PA.js134233063060398119 0
 64C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\readdirp\esm134233069900150431 1
 92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\utility-types\dist\aliases-and-guards.js134233063031348767 0
@@ -597,6 +594,7 @@
 88C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\dist\unpacker\agents.js134233063036218326 0
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\update-browserslist-db\LICENSE134233063030565572 0
 71C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\type-fest\base.d.ts134233063033549527 0
+83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\ER.js134233063052751325 0
 72C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\type-fest\index.d.ts134233063036320382 0
 102C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-display-contents.js134233063048412226 0
 96C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-textshadow.js134233063050906787 0
@@ -771,7 +769,7 @@
 73C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\LICENSE134233063031756056 0
 71C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\core\README.md134233063030875740 0
 62C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\semver\bin134233063039512588 1
-59C:\Users\juanc\Desktop\SASS\PaginaSass\docs\formulario.html134233072316412274 0
+59C:\Users\juanc\Desktop\SASS\PaginaSass\docs\formulario.html134233081928907760 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\input-email-tel-url.js134233063055783626 0
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\postcss-value-parser\LICENSE134233063030639911 0
 74C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\term-size\package.json134233063034443657 0
@@ -1232,6 +1230,10 @@
 100C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\_\_array_without_holes\package.json134233063034575277 0
 78C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-addon-api\common.gypi134233063032151237 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\JM.js134233063056131530 0
+83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\src\getRootDir.js134233063038003785 0
+95C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\integration\workerfarm134233063039649514 1
+64C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\chokidar\esm134233069900532140 1
+122C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\LICENSE134233063030832697 0
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\src\assetUtils.js134233063038732496 0
 78C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-addon-api\except.gypi134233063032635479 0
 64C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\chalk\source134233063032827249 1
@@ -1259,10 +1261,6 @@
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\node-addon-api\tools\README.md134233063036712872 0
 128C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\build-test.js134233063031867786 0
 114C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages134233063033719023 1
-83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\src\getRootDir.js134233063038003785 0
-95C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\integration\workerfarm134233063039649514 1
-64C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\chokidar\esm134233069900532140 1
-122C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\LICENSE134233063030832697 0
 71C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\src134233063041684602 1
 132C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\node-gyp-build.js134233063032876413 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\graph\src\AdjacencyList.js134233063033354129 0
@@ -1688,9 +1686,8 @@
 68C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\dotenv\README.md134233063034582011 0
 104C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\error-overlay\src\effects\stackTraceLimit.js134233063038535962 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\BN.js134233063043686790 0
-68C:\Users\juanc\Desktop\SASS\PaginaSass\dist\musculacion.766fbbd8.png134233070545468338 0
 70C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\dotenv\SECURITY.md134233063034736861 0
-67C:\Users\juanc\Desktop\SASS\PaginaSass\docs\logosilver.289f6d80.png134233072316412274 0
+67C:\Users\juanc\Desktop\SASS\PaginaSass\docs\logosilver.289f6d80.png134233081928898203 0
 67C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\detect-libc\bin134233063032919672 1
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\IE.js134233063055071292 0
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\detect-libc\bin\detect-libc.js134233063032994935 0
@@ -1718,7 +1715,7 @@
 73C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\commander\lib\help.js134233063033864944 0
 88C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\srcset.js134233063063404912 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\commander\lib\suggestSimilar.js134233063034812098 0
-54C:\Users\juanc\Desktop\SASS\PaginaSass\docs\index.html134233072316412274 0
+54C:\Users\juanc\Desktop\SASS\PaginaSass\docs\index.html134233081928898203 0
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\watcher\node_modules\detect-libc\lib\elf.js134233063032347823 0
 71C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\color-name\index.js134233063031143778 0
 95C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\src\requests\PackageRequest.js134233063044646790 0
@@ -1800,7 +1797,6 @@
 95C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\selection-api.js134233063062908702 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\CD.js134233063044922243 0
 105C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-repeating-gradients.js134233063050517913 0
-54C:\Users\juanc\Desktop\SASS\PaginaSass\dist\index.html134233070545101509 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\CG.js134233063044999990 0
 90C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\types-internal\lib\unsafe.d.ts134233063037884334 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\CH.js134233063045086058 0
@@ -1824,14 +1820,12 @@
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\DJ.js134233063051958302 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\DK.js134233063051958302 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\DM.js134233063051958302 0
-71C:\Users\juanc\Desktop\SASS\PaginaSass\dist\PaginaSass.89dcfe1c.css.map134233070178506173 0
 89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-rsc\lib\RSCRuntime.js134233063031582094 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\DO.js134233063052236591 0
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\flexbox-gap.js134233063053274139 0
 102C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\intersectionobserver.js134233063055903594 0
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_array_without_holes.mjs134233063051419564 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\EE.js134233063052615729 0
-83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\ER.js134233063052751325 0
 113C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\graph\test\integration\adjacency-list-shared-array.js134233063031587621 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\ES.js134233063052771350 0
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\input-range.js134233063055903594 0
@@ -1864,7 +1858,6 @@
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\GQ.js134233063053930579 0
 78C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\types-internal\src134233063035826026 1
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\GR.js134233063053951053 0
-70C:\Users\juanc\Desktop\SASS\PaginaSass\dist\PaginaSass.59712999.js.map134233070544680893 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\GT.js134233063053960568 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\GW.js134233063054229251 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\regions\HK.js134233063054584919 0
@@ -2072,7 +2065,6 @@
 87C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\audio.js134233063041275196 0
 90C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\auxclick.js134233063041789606 0
 91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\maxlength.js134233063057473104 0
-71C:\Users\juanc\Desktop\SASS\PaginaSass\dist\PaginaSass.e8265c92.css.map134233070545337373 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\avif.js134233063041922713 0
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\background-attachment.js134233063042290034 0
 89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\_\_sliced_to_array_loose134233063043541493 1
@@ -2202,7 +2194,6 @@
 88C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_apply_decs_2311.js134233063048948052 0
 100C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-math-functions.js134233063049606176 0
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-media-interaction.js134233063049606176 0
-56C:\Users\juanc\Desktop\SASS\PaginaSass\dist\Reseñas.html134233070545053018 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-media-scripting.js134233063049742225 0
 98C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-mediaqueries.js134233063049742225 0
 94C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css3-cursors.js134233063051241405 0
@@ -2229,11 +2220,10 @@
 95C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-service-worker\package.json134233063032530566 0
 104C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-print-color-adjust.js134233063050299386 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-read-only-write.js134233063050409569 0
-68C:\Users\juanc\Desktop\SASS\PaginaSass\docs\musculacion.4fbf1237.png134233072313034381 0
+68C:\Users\juanc\Desktop\SASS\PaginaSass\docs\musculacion.4fbf1237.png134233081925874370 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\test\input\config134233063043765805 1
 99C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-rebeccapurple.js134233063050409569 0
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\_\_class_private_method_init\package.json134233063039369969 0
-70C:\Users\juanc\Desktop\SASS\PaginaSass\dist\formulario.678b6cc1.js.map134233070545428095 0
 97C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-reflections.js134233063050409569 0
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-regions.js134233063050467905 0
 92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\css-resize.js134233063050517913 0
@@ -2313,8 +2303,8 @@
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\src\requests\EntryRequest.js134233063042775743 0
 92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\filesystem.js134233063053184323 0
 79C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\events\lib\types.js134233063034776118 0
-89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_apply_decs_2311.mjs134233063051362928 0
 89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\flexbox.js134233063053284077 0
+89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_apply_decs_2311.mjs134233063051362928 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\caniuse-lite\data\features\sdch.js134233063062908702 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\workerfarm.js134233063041776286 0
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_defaults.js134233063049742225 0
@@ -2788,7 +2778,6 @@
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\watcher\src\Watcher.cc134233063036467087 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_is_native_reflect_construct.mjs134233063052236591 0
 91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_iterable_to_array.mjs134233063052308897 0
-61C:\Users\juanc\Desktop\SASS\PaginaSass\dist\hero.addb6c17.png134233070178283701 0
 130C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-bad-engines134233063049551790 1
 97C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_iterable_to_array_limit.mjs134233063052308897 0
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_iterable_to_array_limit_loose.mjs134233063052308897 0
@@ -2805,7 +2794,6 @@
 79C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_throw.mjs134233063052639845 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\lib\CommittedAsset.js134233063041098428 0
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_to_array.mjs134233063052639845 0
-65C:\Users\juanc\Desktop\SASS\PaginaSass\dist\personal.cbb59789.png134233070545860367 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_to_primitive.mjs134233063052639845 0
 85C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\src\childState.js134233063034846798 0
 100C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\src\_ts_add_disposable_resource.mjs134233063052639845 0
@@ -2857,7 +2845,6 @@
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_define_enumerable_properties.js134233063049742225 0
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_extends.js134233063049948109 0
 88C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_define_property.js134233063049742225 0
-68C:\Users\juanc\Desktop\SASS\PaginaSass\dist\musculacion.4fbf1237.png134233070171961285 0
 84C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\packager-js\package.json134233063037251156 0
 76C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_get.js134233063049976216 0
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\esm\_identity.js134233063050026261 0
@@ -2943,7 +2930,6 @@
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs134233063047081938 0
 94C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\lib\requests\TargetRequest.js134233063047484864 0
 97C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\cjs\_interop_require_default.cjs134233063047185105 0
-61C:\Users\juanc\Desktop\SASS\PaginaSass\dist\hero.8ee18192.png134233070545860367 0
 92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\cjs\_is_native_function.cjs134233063047276790 0
 82C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\watcher\src\Backend.hh134233063037572642 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@swc\helpers\cjs\_is_native_reflect_construct.cjs134233063047311652 0
@@ -3048,7 +3034,7 @@
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\build-ts.js134233063031234035 0
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\integration\workerfarm\ipc-pid.js134233063037523294 0
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\integration\workerfarm\ping.js134233063038595424 0
-67C:\Users\juanc\Desktop\SASS\PaginaSass\docs\PaginaSass.6ee2894f.css134233072316412274 0
+67C:\Users\juanc\Desktop\SASS\PaginaSass\docs\PaginaSass.6ee2894f.css134233081928898203 0
 123C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js134233063039359958 0
 115C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\test\integration\workerfarm\shared-reference.js134233063039660363 0
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\workers\src\child.js134233063034226383 0
@@ -3135,7 +3121,6 @@
 91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\test\prettifyTime.test.js134233063041579614 0
 102C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\test\replaceBundleReferences.test.js134233063042196362 0
 87C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\test\throttle.test.js134233063042799478 0
-67C:\Users\juanc\Desktop\SASS\PaginaSass\dist\logosilver.289f6d80.png134233070176205398 0
 86C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\test\urlJoin.test.js134233063042879702 0
 96C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\utils\test\input\sourcemap\inline.js134233063040244763 0
 94C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\src\requests\DevDepRequest.js134233063042421693 0
@@ -3215,7 +3200,7 @@
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-postcss\src134233063034846798 1
 97C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-postcss\src\loadConfig.js134233063033436717 0
 98C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-postcss\lib\loadPlugins.js134233063033831453 0
-65C:\Users\juanc\Desktop\SASS\PaginaSass\docs\personal.5da5019e.png134233072313501066 0
+65C:\Users\juanc\Desktop\SASS\PaginaSass\docs\personal.5da5019e.png134233081926219312 0
 80C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-node\lib134233063031248884 1
 84C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-node\LICENSE134233063030744827 0
 89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\transformer-node\package.json134233063032530566 0
@@ -3320,7 +3305,6 @@
 93C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\lib\requests\AssetRequest.js134233063038368531 0
 100C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js134233063035524872 0
 89C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\lib\helpers\worker134233063040341596 1
-65C:\Users\juanc\Desktop\SASS\PaginaSass\dist\personal.5da5019e.png134233070178283701 0
 102C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\lib\helpers\worker\js-loader.js134233063038027940 0
 100C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-js\lib\helpers\node\js-loader.js134233063037828730 0
 88C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\lib\summarizeRequest.js134233063046719039 0
@@ -3337,7 +3321,6 @@
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-browser-hmr\src\loaders\hmr-runtime.js134233063032593384 0
 97C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-browser-hmr\lib\HMRRuntime.js134233063033119393 0
 91C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\runtime-browser-hmr\lib\loaders134233063031403979 1
-63C:\Users\juanc\Desktop\SASS\PaginaSass\dist\Reseñas.fdc933c4.js134233070544632994 0
 84C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\resolver-default\LICENSE134233063030754808 0
 99C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\resolver-default\lib\DefaultResolver.js134233063031403979 0
 79C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\reporter-tracer\lib134233063031248884 1
@@ -3365,7 +3348,6 @@
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\src\index.js134233063032516402 0
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\src\Trace.js134233063034474443 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\lib\index.d.ts134233063035966985 0
-67C:\Users\juanc\Desktop\SASS\PaginaSass\dist\PaginaSass.89dcfe1c.css134233070178383584 0
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\lib\index.js134233063031902841 0
 81C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\lib\Trace.js134233063034006322 0
 84C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\profiler\lib\Tracer.d.ts134233063036497203 0
@@ -3435,7 +3417,7 @@
 97C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\src\installPackage.js134233063036520762 0
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\src\MockPackageInstaller.js134233063036814955 0
 87C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\src\Pnpm.js134233063037445794 0
-56C:\Users\juanc\Desktop\SASS\PaginaSass\docs\Reseñas.html134233072316412274 0
+56C:\Users\juanc\Desktop\SASS\PaginaSass\docs\Reseñas.html134233081928898203 0
 101C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\src\promiseFromProcess.js134233063037572642 0
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\src\validateModuleSpecifier.js134233063037874149 0
 90C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\package-manager\lib\index.d.ts134233063040385991 0
@@ -3530,7 +3512,6 @@
 106C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one134233063049606176 1
 103C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\error-overlay\src\components\Collapsible.js134233063033626521 0
 104C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\error-overlay\src\components\ErrorOverlay.js134233063034166164 0
-66C:\Users\juanc\Desktop\SASS\PaginaSass\dist\clasesdir.422a6f24.png134233070176205398 0
 98C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\error-overlay\src\components\Header.js134233063035832209 0
 74C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\diagnostic\lib134233063033975975 1
 92C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@parcel\diagnostic\test\markdown.test.js134233063033354129 0
@@ -3688,7 +3669,6 @@
 77C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@lezer\lr\dist\index.d.ts134233063035038902 0
 75C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@lezer\lr\dist\index.js134233063034017718 0
 78C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@lezer\common\package.json134233063034122450 0
-66C:\Users\juanc\Desktop\SASS\PaginaSass\dist\PaginaSass.59712999.js134233070544632994 0
 75C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\@lezer\common\README.md134233063034323771 0
 85C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\.bin\baseline-browser-mapping.ps1134233063066906843 0
 69C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\.bin\browserslist134233063066906843 0
@@ -3710,9 +3690,5 @@
 63C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\.bin\semver134233063066906843 0
 83C:\Users\juanc\Desktop\SASS\PaginaSass\node_modules\.bin\update-browserslist-db.ps1134233063066906843 0
 61C:\Users\juanc\Desktop\SASS\PaginaSass\docs\defensa-scss.html134232534925372741 0
-71C:\Users\juanc\Desktop\SASS\PaginaSass\docs\PaginaSass.6ee2894f.css.map134233072316567342 0
-66C:\Users\juanc\Desktop\SASS\PaginaSass\dist\formulario.678b6cc1.js134233070545337373 0
-59C:\Users\juanc\Desktop\SASS\PaginaSass\dist\formulario.html134233070545654833 0
-67C:\Users\juanc\Desktop\SASS\PaginaSass\dist\logosilver.a09678be.png134233070544680893 0
-67C:\Users\juanc\Desktop\SASS\PaginaSass\dist\PaginaSass.e8265c92.css134233070545123681 0
+71C:\Users\juanc\Desktop\SASS\PaginaSass\docs\PaginaSass.6ee2894f.css.map134233081929236495 0
 57C:\Users\juanc\Desktop\SASS\PaginaSass\css\styles.css.map134232530685971494 0
